@@ -33,14 +33,6 @@ class GameOverState extends FlxState
 		subText.screenCenter(FlxAxes.X);
 		add(subText);
 
-		// playButton.onUp.sound = FlxG.sound.load(AssetPaths.select__wav);
-
-		// Play the music
-		// if (FlxG.sound.music == null)
-		// { // don't restart the music if it's already playing
-		// 	FlxG.sound.playMusic(AssetPaths.HaxeFlixel_Tutorial_Game__ogg, 1, true);
-		// }
-
 		// Fade transition
 		FlxG.camera.fade(FlxColor.BLACK, 1, true);
 
