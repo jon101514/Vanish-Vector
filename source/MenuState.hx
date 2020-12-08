@@ -38,14 +38,6 @@ class MenuState extends FlxState
 		copyText = new FlxText(FlxG.width / 2, FlxG.height * (15 / 16), 0, "Created by Jonathan So, 2020.", 16);
 		add(copyText);
 
-		// playButton.onUp.sound = FlxG.sound.load(AssetPaths.select__wav);
-
-		// Play the music
-		// if (FlxG.sound.music == null)
-		// { // don't restart the music if it's already playing
-		// 	FlxG.sound.playMusic(AssetPaths.HaxeFlixel_Tutorial_Game__ogg, 1, true);
-		// }
-
 		// Fade transition
 		FlxG.camera.fade(FlxColor.BLACK, 0.33, true);
 
